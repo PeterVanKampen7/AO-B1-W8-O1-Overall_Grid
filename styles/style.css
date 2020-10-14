@@ -136,6 +136,11 @@ h2
 	border: 1px solid #e4ede6;
 }
 
+.slider .clothes
+{
+	height: 340px;
+}
+
 .fadeSlider
 {
 	grid-row: 3;
@@ -192,4 +197,5 @@ footer p
 .sliderExtra
 {
 	grid-row: 4;
+	margin-top: 10px;
 }
