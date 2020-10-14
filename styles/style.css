@@ -1,0 +1,155 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.gridContainer
+{
+	font-family: 'Lato', sans-serif; 
+	display: grid;
+	grid-template-columns: auto 387px 326px 387px auto;
+	grid-template-rows: 115px 425px 380px 50px;
+	font-size: 14px;
+	line-height: 20px
+}
+
+.header
+{
+	grid-column-start: 2;
+	grid-column-end: 5;
+	grid-row: 1;
+	background-image: url("../img/header_bg.png");
+}
+
+.logo
+{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row: 1;
+}
+
+.logo img
+{
+	width: 80%;
+	height: 100%;
+	margin-left: 44px;
+}
+
+.navBar
+{
+	grid-row-start: : 1;
+	grid-row-end: 2;
+	grid-column-start: 3;
+	grid-column-end: 5;	
+	list-style-type: none;	
+}
+
+.navBar ul
+{
+	margin-top: 47px;
+	float: right;
+}
+
+.navBar li
+{
+	display: inline;	
+}
+
+.navBar a
+{
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	margin-right: 35px;
+	font-size: 16px;
+}
+
+.bannerBG
+{
+	grid-row: 2;
+	grid-column-start: 2;
+	grid-column-end: 5;
+	background-image: url("../img/banner_bg.png");
+}
+
+.banner
+{
+	grid-row: 2;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	margin-left: 44px;	
+	margin-top: 15px;
+}
+
+.banner img
+{
+	width: 669px;
+}
+
+h1
+{
+	font-size: 26px;
+	line-height: 30px;
+}
+
+.bannerText
+{
+	color: white;
+	grid-row: 2;
+	grid-column-start: 4;
+	grid-column-end: 5;
+	margin-left: 15px;
+	margin-right: 35px;
+	margin-top: 35px;
+}
+
+.sliderList
+{
+	margin-left: 25px;
+}
+
+.fadeSlider
+{
+	grid-row: 3;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	margin-top: 25px;
+	margin-left: 60px;
+	margin-right: 10px
+}
+
+.nivoSlider
+{
+	grid-row: 3;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	margin-left: 13px;
+	margin-right: 13px;
+	margin-top: 25px;
+}
+
+.bonusSlider
+{
+	grid-row: 3;
+	grid-column-start: 4;
+	grid-column-end: 5;
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-right: 60px
+}
+
+footer
+{
+	grid-row: 4;
+	grid-column-start: 2;
+	grid-column-end: 5;
+	background-image: url("../img/footer_bg.png");
+}
+
+footer p
+{
+	text-align: center;
+	color: white;
+	margin-top: 13px;
+}
