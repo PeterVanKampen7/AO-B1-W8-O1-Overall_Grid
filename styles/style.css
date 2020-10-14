@@ -9,10 +9,21 @@
 	font-family: 'Lato', sans-serif; 
 	display: grid;
 	grid-template-columns: auto 387px 326px 387px auto;
-	grid-template-rows: 115px 425px 380px 50px;
+	grid-template-rows: 115px 425px 400px 40px;
 	font-size: 14px;
 	line-height: 20px
 }
+
+.secondGridContainer
+{
+	font-family: 'Lato', sans-serif; 
+	display: grid;
+	grid-template-columns: auto 387px 326px 387px auto;
+	grid-template-rows: 115px 425px 400px 400px 40px;
+	font-size: 14px;
+	line-height: 20px
+}
+
 
 .header
 {
@@ -85,6 +96,8 @@
 .banner img
 {
 	width: 669px;
+	height: 320px;
+	border: 2px solid #e4ede6;
 }
 
 h1
@@ -104,9 +117,23 @@ h1
 	margin-top: 35px;
 }
 
-.sliderList
+.slider ul
 {
 	margin-left: 25px;
+}
+
+h2
+{
+	font-size: 20px;
+	line-height: 22px;
+	margin-top: 5px;
+}
+
+.slider img
+{
+	width: 300px;
+	height: 150px;
+	border: 1px solid #e4ede6;
 }
 
 .fadeSlider
@@ -147,9 +174,22 @@ footer
 	background-image: url("../img/footer_bg.png");
 }
 
+.secondFooter
+{
+	grid-row: 5;
+	grid-column-start: 2;
+	grid-column-end: 5;
+	background-image: url("../img/footer_bg.png");
+}
+
 footer p
 {
 	text-align: center;
 	color: white;
-	margin-top: 13px;
+	margin-top: 8px;
+}
+
+.sliderExtra
+{
+	grid-row: 4;
 }
