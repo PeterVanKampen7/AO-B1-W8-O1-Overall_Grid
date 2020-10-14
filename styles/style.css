@@ -182,9 +182,6 @@ footer
 .secondFooter
 {
 	grid-row: 5;
-	grid-column-start: 2;
-	grid-column-end: 5;
-	background-image: url("../img/footer_bg.png");
 }
 
 footer p
